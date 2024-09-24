@@ -1,3 +1,7 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .hero-section {
     background-image: url('img/logo.webp'); /* Шлях до твого зображення */
     width: 100%;
@@ -80,4 +84,35 @@
 
 .practice-item {
     height: 24rem;
+}
+
+footer p{
+    color:#fff;
+}
+
+.newsletter-area .newsletter-form .contact-btn {
+    background-color: #b69d74;
+    color: #fff;
+    border:0;
+}
+
+footer li {
+    color:#fff;
+}
+
+/* .help-area-three {
+    padding-top: 30px;
+} */
+
+
+.counter-area {
+    background-color: #fff;
+}
+
+.counter-bg {
+    top: -75px;
+}
+
+#chat-widget-push-to-talk {
+    bottom: 85px !important;
 }
