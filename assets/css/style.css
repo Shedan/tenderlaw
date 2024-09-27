@@ -2153,7 +2153,7 @@ footer .copyright-area .copyright-right {
 }
 
 .title-img-one {
-  background-image: url("../img/about/1.jpg");
+  background-image: url("../../img/tender-bg.jpg");
 }
 
 .page-title-area {
@@ -2305,15 +2305,16 @@ footer .copyright-area .copyright-right {
 }
 
 .about-item .about-content h2 {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 22px;
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 10px;
 }
 
 .about-item .about-content p {
   margin-bottom: 0;
   color: #4a4a4a;
+  font-family: "Poppins", sans-serif;
 }
 
 .about-item .about-information {
