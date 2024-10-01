@@ -4,28 +4,28 @@ $errorMSG = "";
 
 // NAME
 if (empty($_POST["name"])) {
-    $errorMSG = "Name is required ";
+    $errorMSG = "Ім'я обов'язкове ";
 } else {
     $name = $_POST["name"];
 }
 
 // EMAIL
 if (empty($_POST["email"])) {
-    $errorMSG .= "Email is required ";
+    $errorMSG .= "Обов'язкова наявність електронної пошти ";
 } else {
     $email = $_POST["email"];
 }
 
 // MSG SUBJECT
 if (empty($_POST["msg_subject"])) {
-    $errorMSG .= "Subject is required ";
+    $errorMSG .= "Тема обов'язкова ";
 } else {
     $msg_subject = $_POST["msg_subject"];
 }
 
 // Phone Number
 if (empty($_POST["phone_number"])) {
-    $errorMSG .= "Number is required ";
+    $errorMSG .= "Номер обов'язковий ";
 } else {
     $phone_number = $_POST["phone_number"];
 }
@@ -33,15 +33,15 @@ if (empty($_POST["phone_number"])) {
 
 // MESSAGE
 if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required ";
+    $errorMSG .= "Повідомлення обов'язкове ";
 } else {
     $message = $_POST["message"];
 }
 
 
-$EmailTo = "example@domainname.com";
+$EmailTo = "ceotenderlaw@gmail.com";
 
-$Subject = "New Message Received";
+$Subject = "Нове повідомлення за сайту TenderLaw";
 
 // prepare email body text
 $Body = "";
