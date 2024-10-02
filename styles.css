@@ -116,3 +116,7 @@ footer li {
 #chat-widget-push-to-talk {
     bottom: 85px !important;
 }
+
+.expertise-item p {
+    color: #fff !important;
+}
