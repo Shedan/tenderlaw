@@ -10,7 +10,16 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
+    background-attachment: scroll; /* Встановлюємо scroll для всіх пристроїв */
 }
+
+/* Опціонально: якщо ви хочете зберегти fixed для десктопів */
+@media (min-width: 1024px) {
+    .hero-section {
+        background-attachment: fixed;
+    }
+}
+
 .display-4{
     font-size: 4.5rem;
         font-weight: 900;
