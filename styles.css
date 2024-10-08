@@ -120,3 +120,28 @@ footer li {
 .expertise-item p {
     color: #fff !important;
 }
+
+.state-procurement-content ul li {
+    list-style-type: none;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #111111;
+    margin-bottom: 12px;
+}
+
+.state-procurement-content ul li i{
+    color: #b69d74;
+    margin-right: 10px;
+    font-size: 25px;
+    position: relative;
+    top: 2px;
+}
+
+.state-procurement-content .contact-btn {
+    background-color: #b69d74;
+    color: #fff;
+    border: 0;
+    padding: 11px 20px;
+}
+
