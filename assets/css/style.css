@@ -3827,6 +3827,13 @@ footer .copyright-area .copyright-right {
   z-index: 10;
 }
 
+@media only screen and (max-width: 767px) {
+  #toTop {
+      bottom: 25px!important;
+  }
+}
+
+
 .back-to-top-btn i {
   background-color: #b69d74;
   color: #ffffff;

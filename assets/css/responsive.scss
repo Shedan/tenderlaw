@@ -536,6 +536,11 @@
             line-height: 48px;
         }
     }
+
+    @media only screen and (max-width: 767px) {
+        #toTop {
+            bottom: 25px!important;
+        }}
     /*----- End Back To Top -----*/
 
     /*----- Home Page 2 -----*/
